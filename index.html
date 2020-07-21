@@ -9,8 +9,9 @@
     <meta name="description" content="This website is the portfolio of Aakash Yadav who is a Web Developer & Competitive Programmer. " />
     <meta name="keywords" content="Github, AakashCode12, thecoder" />
     <meta name="author" content="Aakash Yadav" />
-    <!--todo title-->
+    <!--todo title & favicon-->
     <title>HOME | Portfolio of Aakash Yadav | AakashCode12</title>
+    <link rel="shortcut icon" href="Logos/shortcut_icon.svg">
     <!--todo Facebook and Twitter integration -->
     <meta property="og:title" content="" />
     <meta property="og:image" content="" />
@@ -21,15 +22,53 @@
     <meta name="twitter:image" content="" />
     <meta name="twitter:url" content="" />
     <meta name="twitter:card" content="" />
-    <!--todo Css links-->
+    <!--todo CSS sytlesheets links-->
+    <link rel="stylesheet" href="stylesheets/hdft.css">
     <!--todo Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">   
 </head>
 
 <body>
-    <h1>Now we have the power of bootstrap</h1>
-
+    <!--todo Navbar starts here-->    
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="Logos/shortcut_icon.svg" width="30" height="30" class="d-inline-block align-top" loading="lazy">
+                Smartometer
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--contents---->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="link-background">
+                        <a href="#" class="nav-link left">Bill Generator</a>
+                    </li>
+                    <li class="link-background">
+                        <a href="http://localhost:5000/" class="nav-link highlight">OCR</a>
+                    </li>
+                    <li class="link-background">
+                        <a href="project flow.html" class="nav-link left">Project Flow</a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle left" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Login
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Sign Up</a>
+                            <a class="dropdown-item" href="#">Sign In</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!------>
+        </div>
+    </nav>
+    
     <!--todo JavaScript -->
     <script src="scripts/index.js"></script>
     <!-- todo jQuery first, then Popper.js, then Bootstrap JS -->
