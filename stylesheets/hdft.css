@@ -1,5 +1,99 @@
-*{
-    margin:0;
-    padding:0;
-    
+
+/*   ? FROM HERE ALL THE COMMON CHANGES
+------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
 }
+*::selection {
+  color: black;
+  background-color: #caffed; 
+}
+a {
+  color: white !important;
+}
+a:hover {
+  color: rgb(117, 1, 1) !important;
+  font-family: 'Raleway',
+    sans-serif;
+}
+svg {
+  align-items: baseline;
+  align-self: center;
+  align-content: center;
+  margin: 0 auto;
+}
+i:hover {
+  transform: scale(1.1);
+  opacity: 0.6;
+}
+svg:hover {
+  transform: scale(1.1);
+  opacity: 0.6;
+}
+h4 {
+  padding: 2% 0% 2% 0%;
+}
+h3 {
+  padding: 2% 0% 2% 0%;
+}
+h5 {
+  padding: 0% 0% 2% 0%;
+}
+.fa-file-text {
+  font-size: 4px;
+  color: #047a53;
+}
+.box-description {
+  background-color: #e3f3ee;
+}
+/*todo Navbar contents from here*/
+.navbar-nav li {
+  padding: 0 10px;
+}
+.navbar-nav li a {
+  text-align: right;
+  color: #fff;
+  font-size: large;
+  font-weight: 600;
+}
+.navbar {
+  background: rgb(36, 27, 161);
+}
+.navbar-toggler {
+  background-color: #fff;
+  border: none !important;
+}
+.col-sm-2 svg {
+  align-items: center;
+  col-sm-2
+}
+/**-THE UNDERLINE EFFECT OF LINK of particular page-*/
+a.left {
+  position: relative;
+}
+a.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+a.left:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+/* **for the link with highlight for he particular page*/
+a.highlight {
+  color: #dda9a9 !important;
+
+}
+/*
+ ! Navbar contents end from here
+*/
