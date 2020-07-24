@@ -107,8 +107,7 @@ a.left:hover:before {
 }
 /* **for the link with highlight for he particular page*/
 a.highlight {
-  color: #dda9a9 !important;
-
+  color: white!important;
 }
 /*
  ! Navbar contents end from here
@@ -116,7 +115,7 @@ a.highlight {
 /** the written stuff below navbar*/
 .box-for-names{
   margin: 10% 3% 10% 3%;
-  padding: 10%;
+  padding: 5%;
 }
 .below-navbar-container{
    background: -webkit-linear-gradient(right, #0072ff, #00c6ff);
@@ -127,9 +126,10 @@ a.highlight {
   border-radius: 25px;
   color:white;
   font-size: 18px;
-  background: -webkit-linear-gradient(right, #fc2111, #ffbc04);
+  background: -webkit-linear-gradient(right, #1A129F, #6156f9e3);
   width:200px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in;
+  border:none;
   }
 #commonbuttons:hover{
   padding: 2%;
@@ -137,21 +137,64 @@ a.highlight {
   border-radius: 25px;
   color: white;
   font-size: 18px;
-  background: -webkit-linear-gradient(left, #ff1101, #f58d04);
+  background: -webkit-linear-gradient(left, #1A129F, #6156f9e3);
   width: 200px;
   border-block-style: none;
+  border:none;
+  transform: scale(1.05);
 }
-/**below the navbar right side svg*/
+
+/*
+    todo below the navbar right side svg
+*/
 #right_below_navbar_svg img{
   width: 100%;
   height: auto;
 }
+
+
 #hello-world h1{
   color: #fff;
-  font-size: 6vw;
+  font-size: 70px;
 }
 #hello-world h4 {
-  color: #000;
-  font-size: 1.5vw;  
+  color: white;
+  font-size: 30px;  
   font-weight: 500;
+}
+@media only screen and (max-width: 991px) {
+  #hello-world h1 {
+    color: #fff;
+    font-size: 50px;
+  }
+
+  #hello-world h4 {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+  }
+}
+@media only screen and (max-width: 1233px) {
+  #hello-world h1 {
+    color: #fff;
+    font-size: 60px;
+  }
+
+  #hello-world h4 {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #hello-world h1 {
+    color: #fff;
+    font-size: 50px;
+  }
+
+  #hello-world h4 {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+  }
 }
