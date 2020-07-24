@@ -115,7 +115,7 @@ a.highlight {
 */
 /** the written stuff below navbar*/
 .box-for-names{
-  margin: 10% 10% 10% 10%;
+  margin: 10% 3% 10% 3%;
   padding: 10%;
 }
 .below-navbar-container{
@@ -124,13 +124,34 @@ a.highlight {
 #commonbuttons{
   padding:2%; 
   border: none;
-  border-radius: 2%;
+  border-radius: 25px;
   color:white;
-  background: -webkit-linear-gradient(right, #0072ff, #00c6ff);
+  font-size: 18px;
+  background: -webkit-linear-gradient(right, #fc2111, #ffbc04);
+  width:200px;
+  transition: all 0.3s ease-in-out;
   }
-
+#commonbuttons:hover{
+  padding: 2%;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 18px;
+  background: -webkit-linear-gradient(left, #ff1101, #f58d04);
+  width: 200px;
+  border-block-style: none;
+}
 /**below the navbar right side svg*/
-.right_below_navbar_svg{
+#right_below_navbar_svg img{
   width: 100%;
   height: auto;
+}
+#hello-world h1{
+  color: #fff;
+  font-size: 6vw;
+}
+#hello-world h4 {
+  color: #000;
+  font-size: 1.5vw;  
+  font-weight: 500;
 }
