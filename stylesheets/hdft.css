@@ -13,9 +13,10 @@
 }
 a {
   color: white !important;
+  transition: all 0.3s ease-in-out;
 }
 a:hover {
-  color: rgb(117, 1, 1) !important;
+  color: rgb(194, 193, 144) !important;
   font-family: 'Raleway',
     sans-serif;
 }
@@ -60,12 +61,26 @@ h5 {
   font-weight: 600;
 }
 .navbar {
-  background: rgb(36, 27, 161);
+  background: -webkit-linear-gradient(right, #0072ff, #00c6ff);
+}
+#leftlogo img{
+  width: 200px;
+  height:70px;
+}
+@media only screen and (max-width: 600px) {
+  #leftlogo img {
+    width: 100px;
+    height: 35px;
+  }
 }
 .navbar-toggler {
-  background-color: #fff;
+  background-color: #caffed!important;
   border: none !important;
 }
+ .navbar-toggler-icon{
+  color: #000000!important;
+}
+
 .col-sm-2 svg {
   align-items: center;
   col-sm-2
