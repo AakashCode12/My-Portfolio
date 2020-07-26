@@ -200,3 +200,10 @@ a.highlight {
   
   background: -webkit-linear-gradient(right, #0072ff, #00c6ff);
 }
+/***footer section of the website*/
+.footer_bottom{
+  background: -webkit-linear-gradient(right, #0072ff, #00c6ff);
+}
+.footer_about_section h1{
+    color: #fff;
+}
