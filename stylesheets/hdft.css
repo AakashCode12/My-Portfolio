@@ -34,6 +34,9 @@ svg:hover {
   transform: scale(1.1);
   opacity: 0.6;
 }
+h3{
+  padding: 2% 2% 2% 2%;
+}
 h4 {
   padding: 2% 0% 2% 0%;
 }
@@ -204,6 +207,15 @@ a.highlight {
 .footer_bottom{
   background: -webkit-linear-gradient(right, #0072ff, #00c6ff);
 }
-.footer_about_section h1{
+.footer_about_section h3,p{
     color: #fff;
+}
+
+.footer_quicklinks_section h3,
+p {
+  color: #fff;
+}
+.footer_contact_section h3,
+p {
+      color:#fff;
 }
