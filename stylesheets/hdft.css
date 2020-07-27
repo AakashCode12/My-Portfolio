@@ -126,7 +126,7 @@ a.highlight {
   border-radius: 25px;
   color:white;
   font-size: 18px;
-  background: -webkit-linear-gradient(right, #E904E0, #6156f9e3);
+  background: -webkit-linear-gradient(right, hsl(302, 97%, 46%), #6156f9e3);
   width:200px;
   transition: all 0.3s ease-in;
   border:none;
