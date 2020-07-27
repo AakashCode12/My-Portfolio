@@ -40,13 +40,8 @@ h3{
 h4 {
   padding: 2% 0% 2% 0%;
 }
-
 h5 {
   padding: 0% 0% 2% 0%;
-}
-.fa-file-text {
-  font-size: 4px;
-  color: #047a53;
 }
 .box-description {
   background-color: #e3f3ee;
@@ -81,10 +76,8 @@ h5 {
 #navbar-toggler-icon{
   color:black; 
 }
-
 .col-sm-2 svg {
-  align-items: center;
-  
+  align-items: center;  
 }
 /**-THE UNDERLINE EFFECT OF LINK of particular page-*/
 a.left {
@@ -143,7 +136,6 @@ a.highlight {
   border:none;
   transform: scale(1.05);
 }
-
 /*
     todo below the navbar right side svg
 */
@@ -195,12 +187,10 @@ a.highlight {
     font-weight: 500;
   }
 }
-
 /***waves part below slider */
 .outer_box_for_waves{
   overflow: hidden; 
-  color: aliceblue;
-  
+  color: aliceblue;  
   background: -webkit-linear-gradient(right, #0072ff, #00c6ff);
 }
 /***footer section of the website*/
@@ -210,7 +200,6 @@ a.highlight {
 .footer_about_section h3,p{
     color: #fff;
 }
-
 .footer_quicklinks_section h3,
 p {
   color: #fff;
@@ -219,3 +208,52 @@ p {
 p {
       color:#fff;
 }
+.footer_about_section p{
+  font-size: 18px;
+  
+}
+.footer-links li {
+  list-style: none;
+  font-size: 18px;
+}
+.footer-links li a {
+  text-decoration: wavy;
+}
+/*social media stuff on footer*/
+#github {
+  color: #ffffff;
+  padding: 5% 0% 5% 0%;
+}
+#github:hover {
+  color: black;
+  transform: scale(1.1);
+}
+#linkedin {
+  color: #ffffff;
+  padding: 5% 0% 5% 0%;
+}
+#linkedin:hover {
+  color: #005f92;
+  transform: scale(1.1);
+}
+#instagram {
+  color: #ffffff;
+  padding: 5% 0% 5% 0%;
+}
+#instagram:hover {
+  color: #3c0044;
+  transform: scale(1.1);
+}
+#twitter {
+  color: #ffffff;
+  padding: 5% 0% 5% 0%;
+}
+#twitter:hover {
+  color: #1bffec;
+  border: black;
+  transform: scale(1.1);
+}
+
+/*
+    *foooter end
+*/
