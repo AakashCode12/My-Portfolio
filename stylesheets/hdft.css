@@ -11,15 +11,26 @@
   color: black;
   background-color: #00c8ff31;
 }
-a {
+/* *global changes for navbar and footer anchor tags*/
+.navbar a {
   color: rgb(255, 255, 255) !important;
   transition: all 0.3s ease-in-out;
 }
-a:hover {
+.navbar a:hover {
   color: rgb(243, 255, 75) !important;
   font-family: 'Raleway',
     sans-serif;
 }
+.footer_bottom a:hover {
+  color: rgb(243, 255, 75) !important;
+  font-family: 'Raleway',
+  sans-serif;
+}
+.footer_bottom a {
+  color: rgb(255, 255, 255) !important;
+  transition: all 0.3s ease-in-out;
+}
+/* *global changes for navbar and footer anchor tags*/
 svg {
   align-items: baseline;
   align-self: center;
@@ -197,16 +208,27 @@ a.highlight {
 .footer_bottom{
   background: -webkit-linear-gradient(right, #0072ff, #00c6ff);
 }
-.footer_about_section h3,p{
+.footer_about_section h3{
     color: #fff;
 }
-.footer_quicklinks_section h3,
-p {
+.footer_quicklinks_section h3
+ {
   color: #fff;
 }
-.footer_contact_section h3,
-p {
+.footer_contact_section h3
+ {
       color:#fff;
+}
+.footer_about_section p {
+  color: #fff;
+}
+
+.footer_quicklinks_section p {
+  color: #fff;
+}
+
+.footer_contact_section p {
+  color: #fff;
 }
 .footer_about_section p{
   font-size: 18px;
@@ -255,5 +277,5 @@ p {
 }
 
 /*
-    *foooter end
+   *foooter end
 */
