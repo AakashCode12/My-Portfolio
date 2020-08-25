@@ -1,5 +1,5 @@
 # My-Portfolio
-Still under construction ..I guess will be over till 15 aug
+Still under construction 
 
 
 
